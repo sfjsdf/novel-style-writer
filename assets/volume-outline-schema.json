@@ -1,0 +1,94 @@
+{
+  "volume_outline": {
+    "volume": 1,
+    "volume_name": "卷名",
+    "theme": "本卷主题词（如：觉醒）",
+    "theme_description": "本卷主题的详细阐述",
+
+    "scope": {
+      "start_chapter": 1,
+      "end_chapter": 20,
+      "timeline_start": "故事内起始时间",
+      "timeline_end": "故事内结束时间",
+      "estimated_words": 80000
+    },
+
+    "objective": {
+      "story_goal": "本卷结束时故事应推进到什么位置",
+      "character_goal": "本卷结束时主角应达到什么状态",
+      "world_goal": "本卷结束时读者应对世界有什么新认知"
+    },
+
+    "key_events": [
+      {
+        "event": "事件描述",
+        "approximate_chapter": 3,
+        "impact": "对主线的影响"
+      },
+      {
+        "event": "事件描述",
+        "approximate_chapter": 10,
+        "impact": "对主线的影响"
+      },
+      {
+        "event": "事件描述",
+        "approximate_chapter": 18,
+        "impact": "对主线的影响"
+      }
+    ],
+
+    "character_changes": {
+      "new_characters": [
+        {
+          "name": "角色名",
+          "introduction_chapter": 1,
+          "introduction_method": "如何登场",
+          "role": "在本卷中的功能"
+        }
+      ],
+      "departing_characters": [
+        {
+          "name": "角色名",
+          "departure_chapter": 15,
+          "departure_method": "死亡/隐退/离开/背叛",
+          "impact": "对主角/故事的影响"
+        }
+      ],
+      "relationship_shifts": [
+        {
+          "characters": ["角色A", "角色B"],
+          "from": "初期关系",
+          "to": "末期关系",
+          "turning_point_chapter": 8
+        }
+      ]
+    },
+
+    "subplot_progress": [
+      {
+        "subplot": "副线名称",
+        "progress": "本卷推进内容",
+        "resolved": false
+      }
+    ],
+
+    "emotional_curve": {
+      "start": "卷首情绪",
+      "peak": "卷中情绪高点",
+      "trough": "卷中情绪低点",
+      "end": "卷末情绪",
+      "description": "本卷情绪走向的详细描述"
+    },
+
+    "volume_hook": {
+      "final_chapter_hook": "最后一章的悬念描述",
+      "why_continue": "读者为什么要翻到下一卷（钩子的吸引力分析）"
+    },
+
+    "connections": {
+      "continues_from": "承接上一卷的什么",
+      "sets_up_for": "为下一卷铺垫什么",
+      "mainline_progress": "主线推进程度（百分比或描述）"
+    }
+  }
+}

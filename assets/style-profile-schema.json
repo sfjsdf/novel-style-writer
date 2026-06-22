@@ -1,0 +1,172 @@
+{
+  "style_profile": {
+    "reference_work": "参考作品名称",
+    "analysis_date": "分析日期",
+    "style_tags": ["标签1", "标签2", "标签3"],
+    "overall_summary": "整体风格概括（2-3句话）",
+    "style_adaptation": {
+      "method": "参考文本优先，网文基线兜底",
+      "reference_coverage": "参考文本覆盖的维度数（如7/9）",
+      "baseline_used_for": ["未覆盖的维度列表"]
+    },
+
+    "narrative_voice": {
+      "person": "第一人称/第三人称/混合",
+      "perspective_type": "全知视角/限知视角/客观视角/混合",
+      "perspective_switch_frequency": "固定/偶尔切换/频繁切换",
+      "narrative_distance": "贴近人物/冷静旁观/上帝俯瞰",
+      "source": "reference/baseline/blend",
+      "quantitative": {
+        "first_person_ratio": 0.0,
+        "perspective_switches_per_chapter": 0
+      },
+      "typical_examples": [
+        {"text": "原文示例", "source": "出处章节"}
+      ]
+    },
+
+    "sentence_style": {
+      "source": "reference/baseline/blend",
+      "avg_sentence_length": 0,
+      "long_sentence_ratio": 0.0,
+      "medium_sentence_ratio": 0.0,
+      "short_sentence_ratio": 0.0,
+      "clause_density": "高/中/低",
+      "preferred_patterns": ["倒装", "省略", "排比", "独词成句"],
+      "avg_paragraph_sentences": 0,
+      "quantitative": {
+        "long_short_ratio": "3:7",
+        "parallel_frequency_per_1000_chars": 0
+      },
+      "typical_examples": [
+        {"text": "原文示例", "source": "出处章节"}
+      ]
+    },
+
+    "vocabulary": {
+      "source": "reference/baseline/blend",
+      "register": "纯白话/偏文言/混搭",
+      "classical_ratio": 0.0,
+      "adjective_density": 0.0,
+      "four_char_phrase_frequency": 0.0,
+      "naming_style": "古雅/霸气/朴素/奇幻/混搭",
+      "repetitive_words": ["常用词1", "常用词2"],
+      "register_level": "书面/口语/学术/俚语",
+      "typical_examples": [
+        {"text": "原文示例", "source": "出处章节"}
+      ]
+    },
+
+    "dialogue": {
+      "source": "reference/baseline/blend",
+      "dialogue_ratio": 0.0,
+      "tag_preference": "说/道/动作标记/无标记",
+      "tag_position": "前置/后置/混合",
+      "interweave_style": "纯对话/对话+动作/对话+心理/对话+环境",
+      "tone": "正式/随意/文雅/粗犷/含蓄/直白",
+      "quantitative": {
+        "avg_dialogue_sentences_per_paragraph": 0,
+        "tag_distribution": {
+          "说": 0.0,
+          "道": 0.0,
+          "action_tag": 0.0,
+          "no_tag": 0.0
+        }
+      },
+      "typical_examples": [
+        {"text": "原文示例", "source": "出处章节"}
+      ]
+    },
+
+    "rhythm": {
+      "source": "reference/baseline/blend",
+      "scene_switch_frequency": "高/中/低",
+      "scene_switch_method": "硬切/过渡句/空行/章节分隔",
+      "pacing_style": "整体快/整体慢/快慢交替",
+      "blank_usage": "大量留白/适度留白/极少留白",
+      "avg_chapter_words": 0,
+      "quantitative": {
+        "scene_switches_per_chapter": 0,
+        "fast_slow_ratio": "6:4",
+        "time_skip_frequency": 0
+      },
+      "typical_examples": [
+        {"text": "原文示例", "source": "出处章节"}
+      ]
+    },
+
+    "rhetoric": {
+      "source": "reference/baseline/blend",
+      "simile_style": "明喻为主/暗喻为主/借喻为主/混合",
+      "metaphor_source": "自然意象/日常物品/抽象概念/混合",
+      "metaphor_originality": 3,
+      "synesthesia_frequency": 0.0,
+      "parallel_frequency": 0.0,
+      "repetition_frequency": 0.0,
+      "irony_usage": "常见/偶尔/罕见",
+      "quantitative": {
+        "rhetoric_per_1000_chars": 0,
+        "most_common_type": "比喻/排比/反复"
+      },
+      "best_examples": [
+        {"type": "比喻", "text": "原文", "source": "出处"},
+        {"type": "排比", "text": "原文", "source": "出处"}
+      ]
+    },
+
+    "atmosphere": {
+      "source": "reference/baseline/blend",
+      "description_density": "高/中/低",
+      "sensory_preference": {
+        "visual": "高/中/低",
+        "auditory": "高/中/低",
+        "tactile": "高/中/低",
+        "olfactory": "高/中/低",
+        "gustatory": "高/中/低"
+      },
+      "emotion_rendering": {
+        "scenery_emotion": 0.0,
+        "direct_expression": 0.0,
+        "action_expression": 0.0,
+        "physical_reaction": 0.0
+      },
+      "preferred_atmosphere": ["阴郁", "明亮", "紧张", "温馨"],
+      "typical_examples": [
+        {"text": "原文示例", "source": "出处章节"}
+      ]
+    },
+
+    "characterization": {
+      "source": "reference/baseline/blend",
+      "showing_methods": {
+        "through_dialogue": 0.0,
+        "through_action": 0.0,
+        "through_thought": 0.0,
+        "through_others": 0.0
+      },
+      "psychology_depth": "浅层/中层/深层/混合",
+      "psychology_ratio": 0.0,
+      "character_complexity": "扁平为主/圆形为主/混合",
+      "typical_examples": [
+        {"text": "原文示例", "source": "出处章节"}
+      ]
+    },
+
+    "theme_and_structure": {
+      "source": "reference/baseline/blend",
+      "recurring_themes": ["主题1", "主题2"],
+      "value_orientation": "价值倾向描述",
+      "ending_style": "大团圆/悲剧/开放式/反转/苦涩胜利",
+      "chapter_structure": {
+        "has_titles": true,
+        "avg_chapter_words": 0,
+        "has_prologue": false,
+        "has_epilogue": false
+      },
+      "narrative_structure": "线性/倒叙/多线并行/环形/套层",
+      "typical_examples": [
+        {"text": "原文示例", "source": "出处章节"}
+      ]
+    }
+  }
+}
